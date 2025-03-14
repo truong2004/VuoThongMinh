@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ESP32-CAM AI Detection</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        .camera-container {
+            display: inline-block;
+            background: #fff;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+            margin-top: 20px;
+        }
+
+        .camera-container img {
+            width: 640px;
+            height: 480px;
+            border-radius: 5px;
+            border: 2px solid #333;
+        }
+    </style>
+</head>
+<body>
+    <h1>📷 Giám sát vùng đất bằng ESP32-CAM</h1>
+    
+    <div class="camera-container">
+        <h2>🔴 Live Stream</h2>
+        <img src="{{ url_for('video_feed') }}" alt="ESP32-CAM Stream">
+    </div>
+</body>
+</html>
