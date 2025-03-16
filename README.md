@@ -21,14 +21,14 @@ Hệ thống vườn thông minh là một giải pháp kết hợp IoT và trí
 ✅ Nhận diện hình ảnh để phát hiện người lạ xâm nhập.
 ✅ Xác định thời điểm thu hoạch cây trồng.
 
----
+
 ## 🎯 Mục Tiêu
 - 📡 Xây dựng hệ thống IoT thu thập dữ liệu môi trường.
 - 🧠 Triển khai AI phân tích hình ảnh, tối ưu hóa việc chăm sóc cây trồng.
 - 📱 Phát triển giao diện app Blynk trực quan để giám sát & điều khiển từ xa.
 - 🚨 Nhận diện người lạ và gửi cảnh báo qua Telegram.
 
----
+
 ## 🏢 Kiến Trúc Hệ Thống
 
 ### 1️⃣ Phần Cứng
@@ -46,7 +46,6 @@ Hệ thống vườn thông minh là một giải pháp kết hợp IoT và trí
 - 🔍 Nhận diện người lạ: Gửi cảnh báo khi phát hiện xâm nhập.
 - 🌿 Nhận diện cây trồng: Phân tích hình ảnh để xác định thời điểm thu hoạch.
 
----
 ## 🚀 Hướng Dẫn Cài Đặt
 
 ### 1️⃣ Yêu Cầu Hệ Thống
@@ -71,18 +70,17 @@ python app.py
 - Kiểm tra cảm biến hoạt động đúng.
 - Kết nối ESP32-CAM để lấy link.
 
----
 ## 📊 Giao Diện Web
 - 📷 Hiển thị hình ảnh trực tiếp từ camera ESP32.
 - 🔔 Phát cảnh báo** về điện thoại khi phát hiện người lạ qua Telegram.
 
----
+
 ## 🤖 AI & Nhận Diện Hình Ảnh
 - 🏆 Mô hình: Dùng YOLOv8 để nhận diện người lạ & cây trồng.
 - 🖼️ Xử lý ảnh: Dùng OpenCV trích xuất thông tin.
 - 📜 Lưu trữ log: Ghi nhận hình ảnh khi phát hiện người xâm nhập.
 
----
+
 ## 📝 Nhóm Thực Hiện
 - 👨‍💻 Thành viên: Đỗ Ngọc Nghĩa, Bùi Văn Trường, Nguyễn Thành Hưng, Nguyễn Chí Nhật.
 - 🏫 Lớp: CNTT 16-03.
